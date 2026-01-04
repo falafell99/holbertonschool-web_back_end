@@ -1,2 +1,2 @@
 // Insert document into school collection
-printjson(db.school.insert({ name: "Holberton school" }))
+db.school.insert({ name: "Holberton school" })
